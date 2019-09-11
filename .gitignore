@@ -125,3 +125,6 @@ dmypy.json
 
 # VSCode settings
 .vscode/
+
+# Windows shortcut
+.lnk
