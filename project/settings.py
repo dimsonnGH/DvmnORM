@@ -22,9 +22,7 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = 'REPLACE_ME'
-
-DEBUG = True
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 ROOT_URLCONF = "project.urls"
 
